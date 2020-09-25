@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Query From Me</title>
+</head>
+
+<body>
+  <p><label for="">Name/4 to 20 character:</label>
+    <input type="text" minlength="4" maxlength="20" size="10">
+  </p>
+  <p><label for="email">Enter your email</label>
+    <input type="email" id="email" pattern=".+@gmail.com" size="40">
+  </p>
+  <p><label for="avatar" chose a profile picture/document:</label>
+      <input type="file" id="avatar" name="avatar" accept="image/png,image/jpeg",application/pdf></p>
+  <p><label for="start"> start date:</label>
+    <input type="date" id="start" name="trip-start" value="2020-09-24" min="2020-01-01" max="2020-12-31">
+  </p>
+  <p><label for="">Appointment Time:</label>
+  <input type="datetime-local" name="meeting time" value="2020-09-25T19:30" min="2020-09-10T00:00" max="2020-12-31T00:00"></p>
+
+</body>
+
+</html>
